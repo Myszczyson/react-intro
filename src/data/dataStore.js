@@ -91,6 +91,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to do not want <sup>ever!</sup>',
+    description: 'Interesting things I do not want to check out!',
+    image: 'https://images.pexels.com/photos/6709/vintage-grey-airplane-plane.jpg?auto=compress&cs=tinysrgb&h=750&w=1260',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to get better <sup>quick!</sup>',
+    description: 'Things I want to get better at as fast as I can!',
+    image: 'https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+  },
 ];
 
 const columns = [
@@ -115,6 +127,36 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-2',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-7',
+    listId: 'list-3',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-8',
+    listId: 'list-3',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-9',
+    listId: 'list-3',
     title: 'Strange column',
     icon: 'question',
   },
@@ -150,6 +192,66 @@ const cards = [
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+  },
+  {
+    id: 'card-7',
+    columnId: 'column-4',
+    title: 'This Is Going to Hurt',
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-4',
+    title: 'Interpreter of Maladies',
+  },
+  {
+    id: 'card-9',
+    columnId: 'column-5',
+    title: 'Harry Potter',
+  },
+  {
+    id: 'card-10',
+    columnId: 'column-5',
+    title: 'Star Wars',
+  },
+  {
+    id: 'card-11',
+    columnId: 'column-6',
+    title: 'The Witcher',
+  },
+  {
+    id: 'card-12',
+    columnId: 'column-6',
+    title: 'Skyrim',
+  },
+  {
+    id: 'card-13',
+    columnId: 'column-7',
+    title: 'Skyrim',
+  },
+  {
+    id: 'card-14',
+    columnId: 'column-7',
+    title: 'This Is Going to Hurt',
+  },
+  {
+    id: 'card-15',
+    columnId: 'column-8',
+    title: 'Interpreter of Maladies',
+  },
+  {
+    id: 'card-16',
+    columnId: 'column-8',
+    title: 'Harry Potter',
+  },
+  {
+    id: 'card-17',
+    columnId: 'column-9',
+    title: 'Star Wars',
+  },
+  {
+    id: 'card-18',
+    columnId: 'column-9',
+    title: 'The Witcher',
   },
 ];
 
