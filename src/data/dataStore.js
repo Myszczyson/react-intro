@@ -12,7 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
-  defaultHeaderIcon: 'cat',
+  defaultHeaderIcon: 'home',
   info: {
     defaultInfoTitle: 'Info',
     defaultInfoImage: 'https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
